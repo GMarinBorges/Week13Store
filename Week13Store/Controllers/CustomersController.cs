@@ -31,7 +31,7 @@ namespace Week13Store.Controllers
         {
             return await _context.Customers.ToListAsync();
         }
-        /*
+        
         //[AllowAnonymous]
 
         // GET: api/Customers/5
@@ -47,7 +47,7 @@ namespace Week13Store.Controllers
 
             return customer;
         }
-
+        /*
         // PUT: api/Customers/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]

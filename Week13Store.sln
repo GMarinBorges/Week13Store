@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week13Store", "Week13Store\Week13Store.csproj", "{C5639A54-D3E1-4064-8ABE-11F2C30C1FBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week13Store", "Week13Store\Week13Store.csproj", "{C5639A54-D3E1-4064-8ABE-11F2C30C1FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week13StoreTests1", "Week13StoreTests1\Week13StoreTests1.csproj", "{CAD4EFC3-E5EE-421D-A1F2-B424930D0899}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C5639A54-D3E1-4064-8ABE-11F2C30C1FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5639A54-D3E1-4064-8ABE-11F2C30C1FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5639A54-D3E1-4064-8ABE-11F2C30C1FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD4EFC3-E5EE-421D-A1F2-B424930D0899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD4EFC3-E5EE-421D-A1F2-B424930D0899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD4EFC3-E5EE-421D-A1F2-B424930D0899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD4EFC3-E5EE-421D-A1F2-B424930D0899}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

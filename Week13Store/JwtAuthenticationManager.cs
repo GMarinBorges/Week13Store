@@ -11,7 +11,7 @@ namespace AuthTest
         private readonly string key;
 
         private readonly IDictionary<string, string> users = new Dictionary<string, string>()
-        { {"Gustavo", "EmptyHands"}};
+        { {"Gustavo", "EmptyHands"}, {"MarinBorges", "HandsOnFire"}};
 
         public JwtAuthenticationManager(string key)
         {
@@ -26,6 +26,7 @@ namespace AuthTest
             }
             JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
             var tokenKey = Encoding.ASCII.GetBytes(key);
+
             SecurityTokenDescriptor tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]
